@@ -66,6 +66,5 @@ const checkToken = () => {
     tokenDOM.textContent = 'token present';
     tokenDOM.classList.add('text-success');
   }
-  console.log(localStorage);
 };
 checkToken();
